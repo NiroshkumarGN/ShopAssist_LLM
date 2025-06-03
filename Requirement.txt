@@ -1,0 +1,9 @@
+The following Python libraries are required for implemented for the solution:
+import os                
+import re                
+import ast               
+import json              
+import openai            
+import pandas as pd     
+from IPython.display import display, HTML  
+from tenacity import retry, wait_random_exponential, stop_after_attempt  
